@@ -93,3 +93,4 @@ The following methods are required in this assignment. If you fail to create and
 •	Create a method that receives the players boards and prints them to the console 
 •	Create a method that receives both boards and determines who won. This method should not print to the console but rather return a value informing which player won (or draw or all destroyed). 
 Examples
+![Alt text](image.png)
