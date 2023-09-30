@@ -21,19 +21,19 @@ Battleship is a classic two-player strategy guessing game that simulates naval c
 - **Turn-Based:** The game proceeds in a turn-based fashion with players taking alternate shots.
 
 - **Winning:** The objective is to sink all of the opponent's ships before they sink yours. The first player to sink the entire enemy fleet wins the game.
-
+```
 **Game Strategy:**
 
 - Players use deduction and strategy to locate and sink the opponent's ships efficiently. They can try to hit adjacent squares if they suspect a ship is in the area.
 
 - Some variations of the game introduce special moves or abilities, adding complexity to the strategy.
-
+```
 **Variations:**
 
 - Electronic versions of Battleship exist, including video games and mobile apps.
 
 - Some versions feature alternative themes, such as space battleships or movie tie-ins.
-
+```
 **Skills Developed:**
 
 - Logical deduction and strategy
@@ -50,7 +50,7 @@ Board representation
 You should represent the board according to the example below (in this example the board is 5x5): 
  
  
- 
+ ```
 Boat representation 
 •	Boats will be presented by the letter 'B' on the player's board. When adding boats to their board, players will represent their boats’ position, size, and orientation using four numbers one after the other, separated by spaces:  
 •	The first number represents the X coordinate of the boat 
@@ -60,7 +60,7 @@ Boat representation
 o 0 for horizontal: the ship will grow from its coordinate right o 1 for vertical: the ship will grow from its coordinate down 
  
  
- 	 
+ 	 ```
 Processing 
 Your program will function as follows: 
 1.	Read an integer number representing the board size (always square) 
@@ -83,6 +83,7 @@ b.	P1 Win: P2 has no more boats left, that is no more Bs on P2’s board). P1 st
 c.	P2 Win: P1 has no more boats left, that is no more Bs on P1’s board. P2 still have boats 
 d.	All destroyed: Both players have no boats left on their boards 
 Input/Output Considerations: 
+```
 •	If a boat grows past the bounds of the 2D array, you should "shrink it" so it fits the play area. 
 •	You must separate each player board using the tab scape character ('\t'). There is no spacing between each cell of the boards. 
 o Codio will use strict whitespace. If you are not using \t between the boards your tests will not pass. 
@@ -92,5 +93,6 @@ Required Methods
 The following methods are required in this assignment. If you fail to create and use the methods, you will not receive full marks. 
 •	Create a method that receives the players boards and prints them to the console 
 •	Create a method that receives both boards and determines who won. This method should not print to the console but rather return a value informing which player won (or draw or all destroyed). 
+```
 Examples
 ![Alt text](image.png)
